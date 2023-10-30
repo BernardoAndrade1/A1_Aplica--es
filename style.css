@@ -1,0 +1,84 @@
+
+
+/* Tags semânticas */
+p{
+    color: aliceblue;
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-shadow:1px 1px 1px #111111;
+}
+
+body{
+	background-color:#000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color:mistyrose;
+    height: 80px;
+    padding:20px;
+}
+
+
+footer{
+	clear: both;
+	background-color:mistyrose;
+	height: 50px;
+	text-align: center;
+	padding: 10px;
+	font-size:12px;
+	text-shadow:1px 1px 1px #111111;
+}
+
+h1{
+	color:tomato;
+	text-shadow:1px 1px 1px #111111;
+	text-align: center;
+	margin:0 0 50px 0;
+}
+
+/* variáveis */
+#principal{
+	background-image: url('1303453.png');
+	clear:both;
+	background-size:100%;
+	min-height: 400px;
+	padding:80px 0 0 0;
+}
+
+#logo{
+	float:left;
+}
+
+#menu{
+	margin-top:30px;
+	float:right;
+}
+
+#menu a{
+	padding:52px 20px;
+	text-decoration: none;
+	color:#111;
+	text-shadow: 1px 1px #111111;
+}
+
+#menu a:hover{
+	background-color:tomato;
+	color:#111;
+}
+
+/* Utilização de classe */
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.sombra{
+	background-color:rgba(0, 0, 0, 0.5);
+	padding: 80px 0 80px 0;
+}
